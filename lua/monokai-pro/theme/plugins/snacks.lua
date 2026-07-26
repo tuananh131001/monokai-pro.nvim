@@ -6,6 +6,9 @@ return {
   highlights = function(c)
     -- stylua: ignore
     local highlights = {
+      SnacksPicker              = { bg = c.sideBar.background, fg = c.sideBar.foreground },
+      SnacksPickerList          = { bg = c.sideBar.background, fg = c.sideBar.foreground },
+      SnacksPickerMatch         = { fg = c.base.yellow, bold = true },
       SnacksDashboardNormal  = { bg = c.editor.background, fg = c.editor.foreground },
       SnacksDashboardDesc    = { fg = c.base.dimmed1 },
       SnacksDashboardDir     = { fg = c.base.dimmed2 },
